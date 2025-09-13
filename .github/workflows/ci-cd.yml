@@ -39,7 +39,7 @@ jobs:
           context: .
           file: DockerFile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/fastapi-app:latest
+          tags: sanskar1701/fastapi-app:latest
 
         
             
