@@ -37,7 +37,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: /home/sanskar/doc1/DockerFile
+          file: ./DockerFile
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/fastapi-app:latest
 
